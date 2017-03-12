@@ -18,11 +18,10 @@ Set some basic styles using stylus...
             h1
               color darken(red,50%)
 
-Coffeescript is ok too...
+Javascript is ok too...
 
-        coffee:
-          @load = ->
-            document.getElementsByClassName('info')[0].innerText = 'seems that coffee works just fine!'
+        javascript:
+          this.load = () => document.getElementsByClassName('info')[0].innerText = 'seems that javascript works just fine!'
 
       body onload='load()'
         h1 awesome

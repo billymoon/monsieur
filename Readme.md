@@ -2,7 +2,7 @@
 
 ## Bigger, but equally polite brother of Sir - the polite development server
 
-- serves as plain or pre-processed on-the-fly: coffee-script, less, sass/scss, stylus, markdown, jade, slim
+- serves as plain or pre-processed on-the-fly: less, sass/scss, stylus, markdown, jade, slim
 - livereload
 - multiple and aliased server roots
 - path based proxy (useful to proxy to api server, or assets from live site)
@@ -11,7 +11,7 @@
 - execute shell command on request
 - save cache of requested files (useful for pre-processed output)
 - CORS
-- literate style coffee-script, js, jade, slim, stylus, etc... even md :-) all à la coffee script litrate style (via [npm/illiterate](https://www.npmjs.com/package/illiterate))
+- literate style js, jade, slim, stylus, etc... even md :-) all à la litrate coffee script (via [npm/illiterate](https://www.npmjs.com/package/illiterate))
 
 ## Installation
 
