@@ -1,6 +1,6 @@
-# Sir
+# Monsieur
 
-## The polite development server
+## Bigger, but equally polite brother of Sir - the polite development server
 
 - serves as plain or pre-processed on-the-fly: coffee-script, less, sass/scss, stylus, markdown, jade, slim
 - livereload
@@ -15,11 +15,11 @@
 
 ## Installation
 
-    $ npm install -g sir
+    $ npm install -g monsieur
 
 ## Usage
 
-    Usage: sir [options] <dir>
+    Usage: monsieur [options] <dir>
 
     Options:
 
@@ -40,14 +40,14 @@
 
 ## Examples
 
-Assuming server runnung with something like... `sir .`
+Assuming server runnung with something like... `monsieur .`
 
 ### Requesting a file:
 
     $ curl http://localhost:8080/Readme.md
-    # Sir
+    # Monsieur
 
-    ## The polite development server
+    ## Bigger, but equally polite brother of Sir - the polite development server
     ...
 
 ### Requesting a preprocessed version of a file:
@@ -55,8 +55,8 @@ Assuming server runnung with something like... `sir .`
 Make the same request as if the file had already been compiled, and was being served, and it will be processed on-the-fly...
 
     $ curl http://localhost:8080/Readme.html
-    <h1 id="sir">Sir</h1>
-    <h2 id="the-polite-development-server">The polite development server</h2>
+    <h1 id="monsieur">Monsieur</h1>
+    <h2 id="bigger-but-equally-polite-brother-of-sir-the-polite-development-server">Bigger, but equally polite brother of Sir - the polite development server</h2>
     ...
 
 This also works for sass, coffeescript, jade, etc...
@@ -87,20 +87,20 @@ Ar for plain text list
 
 ### Livereload
 
-By default, livereload is enabled on the same port as the main server. This should work with the browser's livereload plugin, or adding the `/livereload.js?snipver=1` script to your html (which is served up by the sir). For convenience, adding `lr` to the querystring will inject `<script src="/livereload.js?snipver=1"></script>` into your served file.
+By default, livereload is enabled on the same port as the main server. This should work with the browser's livereload plugin, or adding the `/livereload.js?snipver=1` script to your html (which is served up by the monsieur). For convenience, adding `lr` to the querystring will inject `<script src="/livereload.js?snipver=1"></script>` into your served file.
 
 ... without livereload ...
 
     $ curl http://localhost:8080/Readme.html
-    <h1 id="sir">Sir</h1>
-    <h2 id="the-polite-development-server">The polite development server</h2>
+    <h1 id="monsieur">Monsieur</h1>
+    <h2 id="bigger-but-equally-polite-brother-of-sir-the-polite-development-server">Bigger, but equally polite brother of Sir - the polite development server</h2>
 
 ... with livereload ...
 
     $ curl http://localhost:8080/Readme.html?lr
     <script src="/livereload.js?snipver=1"></script>
-    <h1 id="sir">Sir</h1>
-    <h2 id="the-polite-development-server">The polite development server</h2>
+    <h1 id="monsieur">Monsieur</h1>
+    <h2 id="bigger-but-equally-polite-brother-of-sir-the-polite-development-server">Bigger, but equally polite brother of Sir - the polite development server</h2>
 
 If you don't want the livereload feature enabled at all, then there is a `--no-livereload` flag
 
@@ -108,13 +108,13 @@ If you don't want the livereload feature enabled at all, then there is a `--no-l
 
 You can serve up from multiple locations, for example:
 
-    $ sir . vendor:~/lib/vendor
+    $ monsieur . vendor:~/lib/vendor
 
 This will serve from the current directory, except requests for `/vendor/myfile.txt` will be served from `~/lib/vendor`.
 
 You can also layer multiple sources into one directory...
 
-    $ sir . vendor:~/lib/vendor:~/other/vendor
+    $ monsieur . vendor:~/lib/vendor:~/other/vendor
 
 This will serve current directory, except paths starting `/vendor/` which will try to serve from `~/lib/vendor` and if the file is not found there, will be served from `~/other/vendor`, ultimately returning 404 if file is not found.
 
@@ -124,15 +124,15 @@ By default, requests to `/npm/<library>` are proxied to `https://npmcdn.com/<lib
 
 You can proxy requests based on url, for example...
 
-    $ sir . github:https://api.github.com/repos/billymoon/sir
+    $ monsieur . github:https://api.github.com/repos/billymoon/monsieur
 
-This will serve current directory, except for paths starting `/github/` which will be proxied to `https://api.github.com/repos/billymoon/sir` so that accessing...
+This will serve current directory, except for paths starting `/github/` which will be proxied to `https://api.github.com/repos/billymoon/monsieur` so that accessing...
 
     http://localhost:8080/github/issues?state=closed
 
 ... will proxy through the response from ...
 
-    https://api.github.com/repos/billymoon/sir/issues?state=closed
+    https://api.github.com/repos/billymoon/monsieur/issues?state=closed
 
 ### Cache
 

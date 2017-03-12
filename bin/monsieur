@@ -4,4 +4,4 @@
 //require("babel/register");
 
 require('coffee-script/register');
-require('../lib/sir.coffee').run();
+require('../lib/monsieur.coffee').run();

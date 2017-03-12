@@ -1,7 +1,7 @@
 {
-  "name": "sir",
-  "version": "1.7.1",
-  "description": "The polite development server - built with express",
+  "name": "monsieur",
+  "version": "2.0.0",
+  "description": "Bigger, but equally polite brother of Sir - the polite development server",
   "keywords": [
     "static",
     "server",
@@ -10,10 +10,10 @@
   "scripts": {},
   "author": "Billy Moon <billy@itaccess.org>",
   "preferGlobal": true,
-  "homepage": "https://github.com/billymoon/sir",
+  "homepage": "https://github.com/billymoon/monsieur",
   "repository": {
     "type": "git",
-    "url": "https://github.com/billymoon/sir.git"
+    "url": "https://github.com/billymoon/monsieur.git"
   },
   "dependencies": {
     "babel-core": "^6.5.1",
@@ -47,6 +47,6 @@
     "xml2json": "^0.9.0"
   },
   "bin": {
-    "sir": "./bin/sir"
+    "monseur": "./bin/monsieur"
   }
 }
