@@ -1,6 +1,6 @@
 {
   "name": "monsieur",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Bigger, but equally polite brother of Sir - the polite development server",
   "keywords": [
     "static",
@@ -51,6 +51,6 @@
     "presets": ["env", "react"]
   },
   "bin": {
-    "monseur": "./bin/monsieur"
+    "monsieur": "./bin/monsieur"
   }
 }
