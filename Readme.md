@@ -1,5 +1,7 @@
 # Monsieur
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/billymoon/monsieur.svg)](https://greenkeeper.io/)
+
 ## Bigger, but equally polite brother of Sir - the polite development server
 
 - serves as plain or pre-processed on-the-fly: less, sass/scss, stylus, markdown, jade, slim
