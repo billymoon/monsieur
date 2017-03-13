@@ -1,6 +1,6 @@
 # Monsieur
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/billymoon/monsieur.svg)](https://greenkeeper.io/)
+[![Greenkeeper badge](https://badges.greenkeeper.io/billymoon/monsieur.svg)](https://greenkeeper.io/) [![bitHound Overall Score](https://www.bithound.io/github/billymoon/monsieur/badges/score.svg)](https://www.bithound.io/github/billymoon/monsieur)
 
 ## Bigger, but equally polite brother of Sir - the polite development server
 

@@ -38,7 +38,6 @@
     "proxy-middleware": "billymoon/node-proxy-middleware#patch-1",
     "request": "^2.69.0",
     "serve-index": "^1.7.3",
-    "serve-static": "^1.10.2",
     "slm": "^1.0.0",
     "stylus": "^0.54.5",
     "swagger-editor": "^2.10.5",
@@ -47,7 +46,10 @@
     "xml2json": "^0.11.0"
   },
   "babel": {
-    "presets": ["env", "react"]
+    "presets": [
+      "env",
+      "react"
+    ]
   },
   "bin": {
     "monsieur": "./bin/monsieur"
