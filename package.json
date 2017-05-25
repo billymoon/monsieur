@@ -37,7 +37,7 @@
     "node-watch": "^0.5.1",
     "proxy-middleware": "billymoon/node-proxy-middleware#patch-1",
     "request": "^2.69.0",
-    "serve-index": "^1.7.3",
+    "serve-index": "1.8.0",
     "slm": "^1.0.0",
     "stylus": "^0.54.5",
     "swagger-editor": "^3.0.0",
