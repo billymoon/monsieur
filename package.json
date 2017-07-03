@@ -21,7 +21,7 @@
     "babel-preset-env": "^1.2.1",
     "babel-preset-react": "^6.23.0",
     "cheerio": "^0.22.0",
-    "commander": "2.9.0",
+    "commander": "2.11.0",
     "compression": "^1.6.1",
     "express": "^4.13.4",
     "express-minify": "^0.2.0",
