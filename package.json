@@ -26,7 +26,7 @@
     "express": "^4.13.4",
     "express-minify": "^0.2.0",
     "illiterate": "1.0.0",
-    "js-beautify": "^1.6.2",
+    "js-beautify": "^1.7.0",
     "less": "^2.6.0",
     "lodash": "^4.3.0",
     "marked": "0.3.6",
