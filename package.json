@@ -22,7 +22,7 @@
     "babel-preset-react": "^6.23.0",
     "cheerio": "^0.22.0",
     "commander": "2.9.0",
-    "compression": "^1.6.1",
+    "compression": "^1.7.1",
     "express": "^4.13.4",
     "express-minify": "^0.2.0",
     "illiterate": "1.0.0",
